@@ -1,0 +1,33 @@
+{
+  "name": "BookWeb — Đọc sách offline",
+  "short_name": "BookWeb",
+  "description": "PWA đọc sách offline 100% local: EPUB, PDF, TXT, Markdown, HTML, DOCX, CBZ.",
+  "lang": "vi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#050B20",
+  "theme_color": "#050B20",
+  "categories": ["books", "education", "utilities"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "bookweb",
+  "private": true,
+  "version": "0.1.0",
+  "description": "BookWeb — PWA đọc sách offline 100% local, clone bản web core từ NoCap_App_EXE (Android/Kotlin).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "pdfjs-dist": "^4.4.168"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
